@@ -232,3 +232,12 @@ self.addEventListener('fetch', function(e) {
 <script src="js/app.js"></script>
 ```
 * Analizamos con **Ligthouse**
+
+# Cargamos nuestra PWA a Github Pages
+
+* Se necesita una cuenta en [GitHub](htpps://github.com/)
+* Creamos una nueva organización
+* Creamos un repositorio con el siguiente nombre **nombreorganizacion.github.io**
+* Cargamos los archivos de nuestra PWA.
+
+# Accedemos a nuestra PWA dese nuestros dispositivos móviles usando la URL de nuestra págian en GitHub.
