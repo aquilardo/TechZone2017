@@ -239,4 +239,4 @@ self.addEventListener('fetch', function(e) {
 * Creamos un repositorio con el siguiente nombre **nombreorganizacion.github.io**
 * Cargamos los archivos de nuestra PWA.
 
-# Accedemos a nuestra PWA dese nuestros dispositivos móviles usando la URL de nuestra págian en GitHub.
+# Accedemos a nuestra PWA dese nuestros dispositivos móviles usando la URL de nuestra página en GitHub.
