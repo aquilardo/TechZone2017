@@ -225,5 +225,8 @@ if ('serviceWorker' in navigator) {
 
 }
 ```
-* Enlazamos nuestro documento HTML con el archivo `app.js`
+* Enlazamos nuestro documento HTML con el archivo `app.js` usando el siguiente código
+```html
+<script src="js/app.js"></script>
+```
 * Analizamos con **Ligthouse**
