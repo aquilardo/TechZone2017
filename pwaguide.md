@@ -1,5 +1,5 @@
 # Guia - Workshop: Progressive Web Apps
-dudas o consultas aquilardocct)gmail.com
+dudas o consultas aquilardocc(at)gmail.com
 
 ## Preparando el Entorno
 
