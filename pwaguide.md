@@ -101,6 +101,22 @@ Volvemos a evaluar con **Ligthouse**
 * Analizamos con **Ligthouse**
 
 ## Service Workers
+
+* Creamos el archivo `app.js` dentro del directorio **js** para registrar nuestro service worker, a continuación el contenido del archivo:
+```javascript
+if ('serviceWorker' in navigator) {
+
+  navigator.serviceWorker
+    .register('./service-worker.js', { scope: './' })
+    .then(function(registration) {
+      console.log("Service Worker Registered");
+    })
+    .catch(function(err) {
+      console.log("Service Worker Failed to Register", err);
+    })
+
+}
+```
 * Creamos el archivo `service-worker.js` en la raiz de nuestro proyecto y añadimos el siguiente contenido:
 ```javascript
 // Set a name for the current cache
@@ -210,21 +226,7 @@ self.addEventListener('fetch', function(e) {
 	); // end e.respondWith
 });
 ```
-* Creamos el archivo `app.js` dentro del directorio **js** para registrar nuestro service worker, a continuación el contenido del archivo:
-```javascript
-if ('serviceWorker' in navigator) {
 
-  navigator.serviceWorker
-    .register('./service-worker.js', { scope: './' })
-    .then(function(registration) {
-      console.log("Service Worker Registered");
-    })
-    .catch(function(err) {
-      console.log("Service Worker Failed to Register", err);
-    })
-
-}
-```
 * Enlazamos nuestro documento HTML con el archivo `app.js` usando el siguiente código
 ```html
 <script src="js/app.js"></script>
