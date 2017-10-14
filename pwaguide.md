@@ -84,11 +84,6 @@ Volvemos a evaluar con **Ligthouse**
       "src": "/images/128x128.png",
       "type": "image/png",
       "sizes": "128x128"
-    },
-    {
-      "src": "/images/small-logo.png",
-      "type": "image/png",
-      "sizes": "64x64"
     }
   ],
   "start_url": "/",
@@ -98,6 +93,7 @@ Volvemos a evaluar con **Ligthouse**
   "background_color": "#000000"
 }
 ```
+* Descargamos los íconos y los ubicamos en la carpeta **images** para descargar seguir el siguiente link [íconos](https://github.com/aquilardo/TechZone2017/raw/master/iconstz.zip)
 * Enlazamos el archivo `manifest.json` desde el header de nuestro documento HTML, utilizando la etiqueta:
 ```html
   <link rel="manifest" href="manifest.json">
@@ -215,7 +211,7 @@ self.addEventListener('fetch', function(e) {
 });
 ```
 * Creamos el archivo `app.js` dentro del directorio **js** para registrar nuestro service worker, a continuación el contenido del archivo:
-````javascript
+```javascript
 if ('serviceWorker' in navigator) {
 
   navigator.serviceWorker
