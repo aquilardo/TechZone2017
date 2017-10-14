@@ -14,3 +14,12 @@
 1. Verificamos que se haya instalado correctamente Node ejecutando `node --version`
 1. Verficamos que se haya instalado correctamente nmp ejecutando `npm --version`
 1. Iniciamos Atom
+
+## Instalamos live-server
+1. Ejecutamos el comando `npm install -g live-server`
+1. Verificamos que se haya instalado correctamente ejecutando `liver-server --version`
+
+## Creando el entorno de trabajo
+1. Creamos una carpeta con nombre **pwatz2017** en el escritorio
+1. Abrimos la carpeta con el explorador de windows y creamos dentro 3 carpetas con los siguientes nombres **images**, **css** y **js**
+1. Abrir la carpeta con el editor de código Atom
