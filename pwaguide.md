@@ -126,9 +126,7 @@ var cacheName = 'v1';
 var cacheFiles = [
 	'./',
 	'./index.html',
-	'./js/app.js',
-	'./css/reset.css',
-	'./css/style.css'
+	'./js/app.js'
 ]
 
 
